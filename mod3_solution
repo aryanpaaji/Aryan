@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Sections</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section {
+            height: 700px; /* Adjust height as needed */
+            padding: 20px;
+            color: #fff;
+            background-color: #007bff; /* Change to distinguish sections */
+        }
+        .section h3 {
+            text-align: center;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #fff;
+        }
+        .back-to-top a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="text-center py-4">
+        <h1 id="our-menu">Our Menu</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="chicken" class="col-md-4 col-sm-6 col-xs-12 section">
+                <h3>Chicken</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia est vel dui consequat, a interdum purus luctus.</p>
+                <a href="#our-menu" class="back-to-top">Back to Top</a>
+            </div>
+            <div id="beef" class="col-md-4 col-sm-6 col-xs-12 section">
+                <h3>Beef</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia est vel dui consequat, a interdum purus luctus.</p>
+                <a href="#our-menu" class="back-to-top">Back to Top</a>
+            </div>
+            <div id="sushi" class="col-md-4 col-sm-12 col-xs-12 section">
+                <h3>Sushi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia est vel dui consequat, a interdum purus luctus.</p>
+                <a href="#our-menu" class="back-to-top">Back to Top</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
